@@ -32,8 +32,6 @@ const App = () => {
       return () => {
         clearTimeout(timer);
       };
-    } else {
-      console.log("koniec");
     }
   }, [seconds]);
 
